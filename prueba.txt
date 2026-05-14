@@ -1,0 +1,15 @@
+name PruebaTotal;
+
+import p, q, r;
+
+
+formulas:
+  (p v false) ^ (q v true);
+  (p v true) ^ (q v false);
+  p v ~p;
+  p ^ ~p;
+  ~~p equiv q;
+  p v ( p ^ q);
+  p ^ (p v q);
+
+
